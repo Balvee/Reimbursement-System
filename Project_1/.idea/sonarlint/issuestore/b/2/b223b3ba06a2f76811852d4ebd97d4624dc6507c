@@ -1,13 +1,0 @@
-
-hsquid:UselessImportCheck	"8Remove this unused import 'javax.servlet.ServletConfig'.(²ðÕ…ýÿÿÿÿ8‰©³Åê,
-{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(·ÀÝõøÿÿÿÿ8°È‚Âé,
-osquid:S001174"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¥´\8Þ„®Æé,
-[squid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Þ„®Æé,
-Fsquid:S1989%"(Add a "try/catch" block for "getWriter".(¾šçÞ8Þ„®Æé,
-9squid:S3626A"Remove this redundant jump.(ûÁÝ…8Þ„®Æé,
-usquid:S001171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á‚íÞùÿÿÿÿ8Þ„®Æé,
-Esquid:S1989""'Add a "try/catch" block for "parseInt".(ìÓˆˆ8Þ„®Æé,
-psquid:S001172"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÛúà8Þ„®Æé,
-9squid:S3626D"Remove this redundant jump.(ûÁÝ…8Þ„®Æé,
-lsquid:UselessImportCheck"<Remove this unused import 'com.balvee.models.Reimbursement'.(¦¢ÿçüÿÿÿÿ8Þ„®Æé,
-Tsquid:S1989*"1Add a "try/catch" block for "writeValueAsString".(ñÈ‘Œÿÿÿÿÿ8ô„øÅê,

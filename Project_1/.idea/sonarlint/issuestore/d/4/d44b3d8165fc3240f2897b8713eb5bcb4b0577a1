@@ -1,20 +1,0 @@
-
-Fsquid:S1989:"(Add a "try/catch" block for "getWriter".(¾šçÞ8ù„“™é,
-{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÜØ…Žøÿÿÿÿ8²ŠÌíè,
-9squid:S3626c"Remove this redundant jump.(ûÁÝ…8º×÷æé,
-Esquid:S1989("'Add a "try/catch" block for "parseInt".(ô¬³Ý8Ì¼ëäé,
-psquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¹Â·Š8º×÷æé,
-\squid:S1155*">Use isEmpty() to check whether the collection is empty or not.(Ä®‚Î8ù„“™é,
-Esquid:S19896"'Add a "try/catch" block for "parseInt".(ìÓˆˆ8ù„“™é,
-9squid:S36262"Remove this redundant jump.(ûÁÝ…8ù„“™é,
-{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ð³˜¥øÿÿÿÿ8ýø°™é,
-9squid:S3626`"Remove this redundant jump.(ûÁÝ…8º×÷æé,
-Jsquid:S1989'"'Add a "try/catch" block for "parseInt".(ý¬–žüÿÿÿÿ8Êú­é,
-{squid:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÃÅøûÿÿÿÿ8ýø°™é,
-Tsquid:S1989?"1Add a "try/catch" block for "writeValueAsString".(Þ¥âšüÿÿÿÿ8ù„“™é,
-Tsquid:S19890"1Add a "try/catch" block for "writeValueAsString".(Þ¥âšüÿÿÿÿ8ù„“™é,
-9squid:S3626A"Remove this redundant jump.(ûÁÝ…8ù„“™é,
-\squid:S11559">Use isEmpty() to check whether the collection is empty or not.(Ä®‚Î8ù„“™é,
-Ÿsquid:S1186k"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üª¼í8Î¼éÆê,
-Jsquid:S19897"'Add a "try/catch" block for "parseInt".(ý¬–žüÿÿÿÿ8¤Ã–¡é,
-Fsquid:S1989+"(Add a "try/catch" block for "getWriter".(¾šçÞ8ù„“™é,

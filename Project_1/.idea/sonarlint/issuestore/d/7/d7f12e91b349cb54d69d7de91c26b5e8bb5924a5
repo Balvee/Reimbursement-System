@@ -1,8 +1,0 @@
-
-wsquid:S1488:"YImmediately return this expression instead of assigning it to the temporary variable "e".(Ö«ºÛ8Ô–Šêè,
-Hsquid:S00108<")Either remove or fill this block of code.(”ý¾8’ä‘Æè,
-_squid:HiddenFieldCheck"6Rename "ed" which hides the field declared at line 20.(ª÷·8ÎŸÔÅê,
-_squid:HiddenFieldCheck)"6Rename "ed" which hides the field declared at line 20.(ª÷·8ÎŸÔÅê,
-Isquid:S11684"+Return an empty collection instead of null.(¥¹ï8ÎŸÔÅê,
-Msquid:S00108 ")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ8ÎŸÔÅê,
-Hsquid:S00108/")Either remove or fill this block of code.(”ý¾8ÎŸÔÅê,

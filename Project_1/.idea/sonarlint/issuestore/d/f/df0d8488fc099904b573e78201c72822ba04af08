@@ -1,30 +1,0 @@
-
-Bsquid:S1148Ì"#Use a logger to log this exception.(Ç’Çê8®ÃÎ´ê,
-nsquid:S2095Æ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ûé™‘8ƒ´äÄê,
-nsquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(þµäÉúÿÿÿÿ8Œ¦š‘ê,
-Gsquid:S1148Õ"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8®ÃÎ´ê,
-squid:S1192#"^Define a constant instead of duplicating this literal "FROM employee, employee_type " 3 times.(æçªÿÿÿÿÿ8ØôäÄê,
-nsquid:S2095Ï"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(®¨¹ù8ƒ´äÄê,
-Fsquid:S1148<"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8Œ¦š‘ê,
-msquid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(”´ÞL8ã¤Ÿê,
-Asquid:S11487"#Use a logger to log this exception.(Ç’Çê8Œ¦š‘ê,
-Gsquid:S1148±"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8ã¤Ÿê,
-‚squid:S4165."_Remove this useless assignment; "e" already holds the assigned value along all execution paths.(‚ªäàùÿÿÿÿ8ØôäÄê,
-ƒsquid:S4165ß"_Remove this useless assignment; "e" already holds the assigned value along all execution paths.(£¬®¹ûÿÿÿÿ8ØôäÄê,
-nsquid:S2095‚"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æÝå³8ã¤Ÿê,
-Nsquid:S00108ç")Either remove or fill this block of code.(¶öêàÿÿÿÿÿ8ØôäÄê,
-Asquid:S1148g"#Use a logger to log this exception.(Ç’Çê8Œ¦š‘ê,
-Gsquid:S1148­"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8ã¤Ÿê,
-Bsquid:S1148¨"#Use a logger to log this exception.(Ç’Çê8ã¤Ÿê,
-Nsquid:S00108ò")Either remove or fill this block of code.(¶öêàÿÿÿÿÿ8ØôäÄê,
-Gsquid:S1148Ñ"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8®ÃÎ´ê,
-Gsquid:S1148›"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8ØôäÄê,
-‚squid:S4165_"_Remove this useless assignment; "e" already holds the assigned value along all execution paths.(‚ªäàùÿÿÿÿ8ØôäÄê,
-nsquid:S2095‹"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(®¨¹ù8ã¤Ÿê,
-Gsquid:S1148Þ"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8ƒ´äÄê,
-nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ü‚„ýÿÿÿÿ
-Bsquid:S1148Ù"#Use a logger to log this exception.(Ç’Çê8ƒ´äÄê,
-osquid:CommentedOutCodeLineâ"<This block of commented-out lines of code should be removed.(þµäÉúÿÿÿÿ8ƒ´äÄê,
-Fsquid:S1148l"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8Œ¦š‘ê,
-nsquid:S2095”"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Š£Ý°8ã¤Ÿê,
-Bsquid:S1148–"#Use a logger to log this exception.(Ç’Çê8ØôäÄê,
