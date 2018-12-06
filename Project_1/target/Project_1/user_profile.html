@@ -1,0 +1,143 @@
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- http://smallenvelop.com/display-loading-icon-page-loads-completely/ -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <script src="js/check_token.js"></script>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 800px;
+      background-color: black;
+      color: white;
+      opacity: .75;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 15px;
+    }
+
+    .admin-tab {
+      width: 35%;
+      margin-left: auto;
+      margin-right: auto;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border-top: 2px solid black;
+      border-right: 2px solid black;
+      border-left: 2px solid black;
+      background-color: white;
+      padding-left: 0px;
+      padding-right: 0px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    #profile_table {
+      color: black;
+      width: 100%;
+      padding: 10px;
+      background-color: white;
+      border-radius: 15px;
+      opacity: .75;
+    }
+
+    form {
+      color: black;
+      width: 100%;
+      background-color: white;
+      opacity: .75;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="background"></div>
+
+  <h1 style="color: white; margin-top: 5%;">Employee Homepage</h1>
+
+  <!--- Admin Navigation Menu --->
+  <ul class="nav nav-pills justify-content-center admin-tab">
+    <li class="nav-item">
+      <a class="nav-link" href="http://localhost:8080/user_reimbursements.html">Reimbursements</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="http://localhost:8080/user_profile.html">Profile</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#" id="logout">Log Out</a>
+    </li>
+  </ul>
+
+  <!--Main View-->
+  <div id="info_div" class="container">
+    <h1>Personal Information</h1>
+    <div id="profile_table">
+      <div class="row">
+        <div class="col">
+          <p>Type: <br><span id="emptype"></span></p>
+          <p>Employee Number: <br><span id="empNum"></span></p>
+        </div>
+        <div class="col">
+          <p>Username: <br><span id="usr"></span></p>
+          <p>Email: <br><span id="email"></span></p>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">
+          <p>First Name: <br><span id="fName"></span></p>
+          <p>Last Name: <br><span id="lName"></span></p>
+        </div>
+        <div class="col">
+          <p>Address: <br><span id="address"></span></p>
+          <p>Phone Number: <br><span id="phone"></span></p>
+        </div>
+      </div>
+    </div>
+    <div style="margin: 5px">
+      <input type="button" id="editInfo" class="btn btn-info" value="Edit Information" >
+    </div>
+  </div>
+
+  <!--Secondary View or update user information-->
+  <div id="editInfo_div" class="container hidden">
+    <h1>Edit Information</h1>
+    <div id="profile_table">
+      <form name="updateInfo">
+        <div class="row">
+          <div class="col">
+            First name:<br> <input type="text" size="40" id="first_name" name="first_name"><br>
+            Last name:<br> <input type="text" size="40" id="last_name" name="last_name"><br>
+            Email:<br> <input type="text" size="40" id="e_mail" name="e_mail"><br>
+          </div>
+          <div class="col">
+            Address:<br> <input type="text" size="40" id="addr" name="addr"><br>
+            Phone:<br> <input type="text" size="40" id="phone_num" name="phone_num"><br>
+            Password:<br> <input type="text" size="40" id="passwd" name="passwd"><br>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div style="margin: 5px">
+      <input type="button" id="save" class="btn btn-primary" value="Save">
+      <input type="button" id="close" class="btn" value="Cancel">
+    </div>
+  </div>
+
+  <script src="js/profile.js"></script>
+</body>
+</html>

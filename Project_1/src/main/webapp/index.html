@@ -1,0 +1,99 @@
+<html>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- http://smallenvelop.com/display-loading-icon-page-loads-completely/ -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  <link href="./css/style.css" rel="stylesheet"/>
+  <style>
+    body {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+    }
+
+    .btn-space {
+      margin: 5px;
+    }
+    .form-content{
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+    }
+    .form-body {
+      padding: 30px 35px 0px 35px;
+    }
+
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+      background-color: #778899;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      border: 5px solid black;
+      border-bottom-style: none;
+      text-align: center;
+      padding: 1px;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    a {
+      cursor: help;
+    }
+
+    #login-submit {
+      border-radius: 25px;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="background"></div>
+
+  <!-- Header -->
+  <h1 class="text-center" style="margin: 1em; color: white;">Expense Reimbursement System</h1>
+
+  <!--- Login Menu --->
+  <div class="row" style="width: 40%; margin-right: auto; margin-left: auto; opacity: .75">
+    <div class="form-content col">
+
+      <div class="container"><h1>Login</h1></div>
+
+      <form class="form-control form-body" method="POST" action="login">
+
+        <p id="error" class="hidden">Invalid username/password.</p>
+        <p id="success" class="hidden">Login Successful!</p>
+
+        <!-- Username -->
+        <div class="form-group">
+          <label for="username"><i class="fas fa-user"></i> Username</label>
+          <input type="text" class="form-control form-control-sm col-md-12" name="username" id="username" aria-describedby="emailHelp" placeholder="Enter Username" required>
+          <small id="emailHelp" class="form-text text-muted text-center">We'll never share your email with anyone else.</small>
+        </div>
+        <!-- Password -->
+        <div class="form-group">
+          <label for="password"><i class="fas fa-key"></i> Password</label>
+          <input type="password" class="form-control form-control-sm col-md-12" name="password" id="password" placeholder="Password" required>
+        </div>
+        <!-- Login Button -->
+        <button type="submit" id="login-submit" class="btn btn-space btn-info btn-success btn-block"><i class="fas fa-lock"></i> Login</button>
+        <!-- Forgot Password -->
+        <div class="modal-footer">
+          <div class="pull-left message" id="login-message"></div>
+           <p>Forgot <a id="forgot_password" style="color:blue;">Password?</a></p><br>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

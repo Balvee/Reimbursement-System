@@ -1,0 +1,166 @@
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- http://smallenvelop.com/display-loading-icon-page-loads-completely/ -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script src="js/check_token.js"></script>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .select_div {
+            width: 85%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 800px;
+            background-color: black;
+            color: white;
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 15px;
+            opacity: .65;
+        }
+
+        .admin-tab {
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            border-top: 2px solid black;
+            border-right: 2px solid black;
+            border-left: 2px solid black;
+            background-color: white;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        #reimbursement_table {
+            width: 100%;
+            padding: 15px;
+            color: black;
+            background-color: white;
+            border-radius: 15px;
+            opacity: .75;
+        }
+
+        th, td {
+            color: black;
+            padding: 15px;
+        }
+
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="background"></div>
+
+    <h1 style="color: white; margin-top: 5%;">Manager Homepage</h1>
+
+    <!--- Admin Navigation Menu --->
+    <ul class="nav nav-pills justify-content-center admin-tab">
+        <li class="nav-item">
+            <a class="nav-link active" href="http://localhost:8080/admin_reimbursements.html">Reimbursements</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:8080/admin_profile.html">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:8080/admin_employees.html">Employees</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" id="logout">Log Out</a>
+        </li>
+    </ul>
+
+    <!--Main Body-->
+    <div class="container">
+
+        <!--Main View-->
+        <div id="reimbursement_div">
+            <h2 style="text-align:center; margin: 0;">
+                <select style="float: right; margin: 0; font-size: 20px;" id="employees_select">
+                    <option value="0">All</option>
+                </select>
+
+                Reimbursements
+
+                <select style="float: left; margin: 0; font-size: 20px;" id="status">
+                    <option value="0">All</option><option value="1">Approved</option><option value="2">Rejected</option><option value="3">Pending</option>
+                </select>
+            </h2>
+            <br>
+            <table id="reimbursement_table">
+                <tr>
+                    <th>Status</th>
+                    <th>Employee</th>
+                    <th>Date/Time</th>
+                    <th>Amount</th>
+                    <th>Approved By</th>
+                    <th>Note</th>
+                </tr>
+            </table>
+            <div style="margin: 5px">
+                <input type="button" id="add" value="Add New Reimbursement" class="hidden">
+                <input type="button" id="change_status" class="btn btn-info" value="Update Reimbursements">
+            </div>
+        </div>
+
+        <divn id="update_reimbursement" class="hidden">
+            <h1>Update status:</h1><br>
+            <div id="reimbursement_table">
+                <div class="select_div">
+                    <select id="update_reimbursement_select" class="text-center"></select>
+                </div>
+                <br>
+                <div class="text-center">
+                    <input type="radio" value="1" id="approve" name="update_status"> Approve
+                    <input type="radio" value="2" id="reject" name="update_status"> Reject
+                    <br>
+                </div>
+            </div>
+            <div style="margin: 5px">
+                <input type="button" id="update" class="btn btn-primary" value="Update">
+                <input type="button" id="close_reimbursement" class="btn" onclick="" value="Cancel">
+            </div>
+        </divn>
+
+        <!--Secondary View or add new reimbursement-->
+        <div id="new_table" class="hidden">
+            <h2 style="text-align:center; margin: 0;">Add new Reimbursement</h2>
+            <br>
+            <table>
+                <tr>
+                    <th>Amount to be Reimbursed</th>
+                    <th>Note</th>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="x.xx" pattern="+[0-9].[0-9][0-9]"></td>
+                    <td><input type="text" size="50"></td>
+                </tr>
+            </table>
+            <div style="margin: 5px">
+                <input type="button" id="save" value="Save">
+                <input type="button" id="close" onclick="" value="Cancel">
+            </div>
+        </div>
+    </div>
+    <script src="js/reimbursements.js"></script>
+</body>
+</html>

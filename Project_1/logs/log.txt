@@ -1,0 +1,148 @@
+2018-10-19 13:13:35 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-19 13:24:27 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-19 13:24:30 INFO  ReimbursementDaoImpl:122 - Returning List from Dao
+2018-10-19 13:24:30 INFO  ReimbursementDaoImpl:123 - [com.balvee.models.Reimbursement@2925bf5b]
+2018-10-19 13:24:30 INFO  ReimbursementViewController:31 - Found All Reimbursements for all users.
+2018-10-19 13:24:31 INFO  ReimbursementDaoImpl:61 - Returning List form Dao.
+2018-10-19 13:32:16 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-19 13:32:18 INFO  ReimbursementDaoImpl:122 - Returning List from Dao
+2018-10-19 13:32:18 INFO  ReimbursementViewController:31 - Found All Reimbursements for all users.
+2018-10-19 13:32:18 INFO  ReimbursementDaoImpl:61 - Returning List form Dao.
+2018-10-19 13:59:03 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-19 13:59:04 INFO  ReimbursementDaoImpl:122 - Returning List from Dao
+2018-10-19 13:59:04 INFO  ReimbursementViewController:31 - Found All Reimbursements for all users.
+2018-10-19 13:59:05 INFO  ReimbursementDaoImpl:61 - Returning List form Dao.
+2018-10-19 14:03:51 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-19 14:03:52 INFO  ReimbursementDaoImpl:122 - Returning List from Dao
+2018-10-19 14:03:52 INFO  ReimbursementViewController:31 - Found All Reimbursements for all users.
+2018-10-19 14:03:53 INFO  ReimbursementDaoImpl:61 - Returning List form Dao.
+2018-10-19 14:08:22 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-19 14:08:24 INFO  ReimbursementDaoImpl:122 - Returning List from Dao
+2018-10-19 14:08:24 INFO  ReimbursementViewController:31 - Found All Reimbursements for all users.
+2018-10-19 14:08:24 INFO  ReimbursementDaoImpl:61 - Returning List form Dao.
+2018-10-19 14:08:54 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-19 14:08:55 INFO  ReimbursementDaoImpl:122 - Returning List from Dao
+2018-10-19 14:08:55 INFO  ReimbursementViewController:31 - Found All Reimbursements for all users.
+2018-10-19 14:08:56 INFO  ReimbursementDaoImpl:61 - Returning List form Dao.
+2018-10-22 10:37:52 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:37:53 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:37:53 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:37:54 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:38:20 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:38:21 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:38:21 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:38:22 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:40:28 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:40:30 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:40:30 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:40:30 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:41:07 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:41:08 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:41:08 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:41:08 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:41:32 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:41:33 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:41:33 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:41:34 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:44:16 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:44:18 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:44:18 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:44:18 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:45:29 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:45:31 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:45:31 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:45:31 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:46:04 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:46:05 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:46:05 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:46:06 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:46:48 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:46:49 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:46:49 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:46:50 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:47:07 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:47:08 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:47:08 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:47:08 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:48:22 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:48:23 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:48:23 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:48:24 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:52:44 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:52:45 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:52:45 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:52:46 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:53:22 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:53:23 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:53:23 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:53:24 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 10:53:56 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 10:53:57 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 10:53:57 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 10:53:58 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 11:00:11 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:00:12 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 11:00:12 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 11:00:13 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 11:00:30 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:00:31 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 11:00:31 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 11:00:32 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 11:00:56 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:00:57 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 11:00:57 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 11:00:57 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 11:01:13 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:01:14 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 11:01:14 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 11:01:14 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 11:23:45 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:23:46 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 11:23:46 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 11:23:46 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 11:24:29 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:24:30 INFO  ReimbursementDaoImpl:121 - Returning Reimbursement List from all users
+2018-10-22 11:24:30 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-22 11:24:31 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-22 11:25:21 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:25:23 INFO  EmployeeViewController:61 - Found All Employees.
+2018-10-22 11:25:23 INFO  EmployeeDaoImpl:95 - Employee Found.
+2018-10-22 11:25:23 INFO  EmployeeViewController:46 - Found All Employees.
+2018-10-22 11:25:34 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:25:35 INFO  EmployeeViewController:61 - Found All Employees.
+2018-10-22 11:25:35 INFO  EmployeeDaoImpl:95 - Employee Found.
+2018-10-22 11:25:35 INFO  EmployeeViewController:46 - Found All Employees.
+2018-10-22 11:26:06 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-22 11:26:07 INFO  EmployeeViewController:61 - Found All Employees.
+2018-10-22 11:26:07 INFO  EmployeeDaoImpl:95 - Employee Found.
+2018-10-22 11:26:07 INFO  EmployeeViewController:46 - Found All Employees.
+2018-10-23 12:15:21 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-23 12:15:23 INFO  ReimbursementDaoImpl:142 - Returning Reimbursement List from all users
+2018-10-23 12:15:23 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-23 12:15:23 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-23 12:16:04 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-23 12:16:05 INFO  ReimbursementDaoImpl:142 - Returning Reimbursement List from all users
+2018-10-23 12:16:05 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-23 12:16:06 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-23 12:17:36 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-23 12:17:37 INFO  ReimbursementDaoImpl:142 - Returning Reimbursement List from all users
+2018-10-23 12:17:37 INFO  ReimbursementViewController:27 - Found All Reimbursements for all users.
+2018-10-23 12:17:37 INFO  ReimbursementDaoImpl:62 - Returning Reimbursement List from one user.
+2018-10-24 10:13:58 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:13:59 INFO  EmployeeDaoImpl:281 - Updated Employee Password.
+2018-10-24 10:18:29 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:18:30 INFO  EmployeeDaoImpl:281 - Updated Employee Password.
+2018-10-24 10:23:29 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:23:31 INFO  EmployeeDaoImpl:281 - Updated Employee Password.
+2018-10-24 10:26:01 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:26:03 INFO  EmployeeDaoImpl:281 - Updated Employee Password.
+2018-10-24 10:29:33 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:29:34 INFO  EmployeeDaoImpl:281 - Updated Employee Password.
+2018-10-24 10:31:07 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:31:09 INFO  EmployeeDaoImpl:281 - Updated Employee Password.
+2018-10-24 10:35:02 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:35:04 INFO  EmployeeDaoImpl:281 - Updated Employee Password.
+2018-10-24 10:35:32 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:35:34 INFO  EmployeeDaoImpl:281 - Updated Employee Password.
+2018-10-24 10:38:12 INFO  DBConnectionUtil:23 - Database connected.
+2018-10-24 10:38:14 INFO  EmployeeDaoImpl:281 - Updated Employee Password.

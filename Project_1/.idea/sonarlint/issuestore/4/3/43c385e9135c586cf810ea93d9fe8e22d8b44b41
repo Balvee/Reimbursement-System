@@ -1,0 +1,5 @@
+
+Isquid:S1481!"+Remove this unused "claims" local variable.(¤‹ýà8¤Ó·ãè,
+Xsquid:S1854!":Remove this useless assignment to local variable "claims".(¤‹ýà8¤Ó·ãè,
+Ÿsquid:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚“¶î8ŸÃŠÆê,
+¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ü›ºÆýÿÿÿÿ8ŸÃŠÆê,
