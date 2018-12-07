@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('App Dependencies') {
       steps {
-        sh '''sh "npm install"
-'''
+        sh 'sh "cf push"'
       }
     }
   }
