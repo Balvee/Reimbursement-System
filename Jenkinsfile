@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  environment {
+    CF_ORG = "'Balvare-org'"
+  }
   stages {
     stage('PCF Deployment') {
       steps {
