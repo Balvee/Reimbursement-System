@@ -1,10 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('CF Push') {
+    stage('PCF Deployment') {
         steps {
-            sh "cf target -o $CF_ORG -s $SPACE"
-            sh "cf push"
+            sh "cf login -a https://api.run.pivotal.io"
+            sh "echo 'balvare@att.net'"
+            sh "echo 'B2o0s!t8on'"
         }
     }
   }
