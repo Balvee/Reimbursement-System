@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('App Dependencies') {
+    stage('PCF Deployment') {
       steps {
-        sh 'sh "cf push"'
+        sh 'sh "cf login"'
       }
     }
   }
