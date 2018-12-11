@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('PCF Deployment') {
       steps {
-        sh '''cf login \\
+        sh '''cf login """
 https://api.run.pivotal.io'''
       }
     }
