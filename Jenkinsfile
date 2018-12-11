@@ -5,7 +5,10 @@ pipeline {
       parallel {
         stage('PCF Deployment') {
           steps {
-            sh 'cf login \\'
+            sh 'cf login'
+            sh 'https://api.run.pivotal.io'
+            sh 'balvare@att.net'
+            sh 'B2o0s!t8on'
           }
         }
         stage('error') {
