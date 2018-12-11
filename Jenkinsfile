@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('PCF Deployment') {
       steps {
-        sh 'sh "cf login"'
+        sh 'cf login'
       }
     }
   }
