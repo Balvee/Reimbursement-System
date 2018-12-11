@@ -5,22 +5,22 @@ pipeline {
       parallel {
         stage('PCF Deployment') {
           steps {
-            sh 'cf login'
+            sh 'cf login \\'
           }
         }
-        stage('') {
+        stage('error') {
           steps {
-            sh 'https://api.run.pivotal.io'
+            sh 'https://api.run.pivotal.io \\'
           }
         }
-        stage('') {
+        stage('error') {
           steps {
-            sh 'balvare@att.net'
+            sh 'balvare@att.net \\'
           }
         }
-        stage('') {
+        stage('error') {
           steps {
-            sh 'B2o0s!t8on'
+            sh 'B2o0s!t8on \\'
           }
         }
       }
