@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('PCF Deployment') {
       steps {
-        sh '''sh(cf login -a https://api.run.pivotal.io \\
+        sh '''cf login -a https://api.run.pivotal.io \\
 \'\'\'balvare@att.net\'\'\' \\
 \'\'\'B2o0s!t8on\'\'\')'''
         sh 'balvare@att.net'
